@@ -15,8 +15,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/milky19/Maven-Sonarqube-Jenkins_intergration.git'
+                git branch: 'main', url: 'https://github.com/Milky19/jenkins-sonarqube-automation.git'
             }
         }
 
